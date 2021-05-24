@@ -18,6 +18,7 @@
   <!-- Library Style Link -->
   <link rel="stylesheet" href="lib/animate/animate.min.css">
   <link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="lib/venobox/venobox.min.css">
 
   <!-- Main Style Link -->
   <link rel="stylesheet" href="css/style.css">
@@ -185,7 +186,8 @@
       </div>
     </section>
     <!-- End of Clients Section Area -->
-    
+
+    <!-- portfolio section area-->
     <section id="portfolio" class="section">
       <div class="center">
         <div class="section-title">
@@ -205,7 +207,38 @@
         <div class="portfolio-container">
           <div class="portfolio-item App">
             <div class="port-wrap">
-              <img src="img/portfolio/1.jpg" alt="">
+              <img src="img/portfolio/1.jpg" class="venobox" alt="">
+              <div class="port-info">
+                <div class="port-tit">
+                  <h4>App 1</h4>
+                  <p>Application</p>
+                </div>
+                <div class="link-btns">
+                  <a href="img/portfolio/1.jpg" class="venobox"><i class="bx bx-plus"></i></a>
+                  <a href="#"><i class="bx bx-link"></i></a>
+                </div>
+              </div>  
+            </div> 
+          </div>
+          <div class="portfolio-item Card">
+            <div class="port-wrap">
+              <img src="img/portfolio/2.jpg" alt="">
+              <div class="port-info">
+                <div class="port-tit">
+                  <h4>card 1</h4>
+                  <p>card</p>
+                </div>
+                <div class="link-btns">
+                  <a href="img/portfolio/1.jpg" class="venobox"><i class="bx bx-plus"></i></a>
+                  <a href="#"><i class="bx bx-link"></i></a>
+                </div>
+              </div>  
+            
+            </div>
+          </div>
+          <div class="portfolio-item Web">
+            <div class="port-wrap">
+              <img src="img/portfolio/3.jpg" alt="">
               <div class="port-info">
                 <div class="port-tit">
                   <h4>App 1</h4>
@@ -216,52 +249,132 @@
                   <a href="#"><i class="bx bx-link"></i></a>
                 </div>
               </div>  
-            </div> 
-          </div>
-          <div class="portfolio-item Card">
-            <div class="port-wrap">
-              <img src="img/portfolio/2.jpg" alt="">
-            </div>
-          </div>
-          <div class="portfolio-item Web">
-            <div class="port-wrap">
-              <img src="img/portfolio/3.jpg" alt="">
             </div>
           </div>
           <div class="portfolio-item App">
             <div class="port-wrap">
               <img src="img/portfolio/4.jpg" alt="">
+              <div class="port-info">
+                <div class="port-tit">
+                  <h4>App 1</h4>
+                  <p>Application</p>
+                </div>
+                <div class="link-btns">
+                  <a href="#"><i class="bx bx-plus"></i></a>
+                  <a href="#"><i class="bx bx-link"></i></a>
+                </div>
+              </div>  
             </div>
           </div>
           <div class="portfolio-item Card">
             <div class="port-wrap">
               <img src="img/portfolio/5.jpg" alt="">
+              <div class="port-info">
+                <div class="port-tit">
+                  <h4>card 1</h4>
+                  <p>Card</p>
+                </div>
+                <div class="link-btns">
+                  <a href="#"><i class="bx bx-plus"></i></a>
+                  <a href="#"><i class="bx bx-link"></i></a>
+                </div>
+              </div>  
             </div>
           </div>
           <div class="portfolio-item Web">
             <div class="port-wrap">
               <img src="img/portfolio/6.jpg" alt="">
+              <div class="port-info">
+                <div class="port-tit">
+                  <h4>App 1</h4>
+                  <p>Application</p>
+                </div>
+                <div class="link-btns">
+                  <a href="#"><i class="bx bx-plus"></i></a>
+                  <a href="#"><i class="bx bx-link"></i></a>
+                </div>
+              </div>  
             </div>
           </div>
           <div class="portfolio-item App">
             <div class="port-wrap">
               <img src="img/portfolio/7.jpg" alt="">
+              <div class="port-info">
+                <div class="port-tit">
+                  <h4>App 3</h4>
+                  <p>Application</p>
+                </div>
+                <div class="link-btns">
+                  <a href="#"><i class="bx bx-plus"></i></a>
+                  <a href="#"><i class="bx bx-link"></i></a>
+                </div>
+              </div>  
             </div>
           </div>
           <div class="portfolio-item Card">
             <div class="port-wrap">
               <img src="img/portfolio/8.jpg" alt="">
+              <div class="port-info">
+                <div class="port-tit">
+                  <h4>card 3</h4>
+                  <p>Application</p>
+                </div>
+                <div class="link-btns">
+                  <a href="#"><i class="bx bx-plus"></i></a>
+                  <a href="#"><i class="bx bx-link"></i></a>
+                </div>
+              </div>  
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- end of portfolio section area-->
+
+    <section id="contact" class="section">
+      <div class="center">
+        <div class="section-title">
+          <h2>contact me</h2>
+          <p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+        </div>
+
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d307995.5650602016!2d103.80447713368667!3d1.3332559526719143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1767b42b8ec9%3A0x400f7acaedaa420!2z7Iux6rCA7Y-s66W0!5e0!3m2!1sko!2skr!4v1621839825756!5m2!1sko!2skr" width="600"></iframe>
+        </div>
+
+        <div class="form-area">
+          <form action="/reveal/php/insert_msg.php" method="post" name="form_data">
+            <p class="name-email">
+             <input type="text" name="name" placeholder="your name">
+             <input type="text" name="email" placeholder="your email">
+            </p>
+            <p class="subjact">
+              <input type="text" name="subjact" placeholder="write subjact">
+            </p>
+            <p class="message">
+              <textarea name="message" placeholder="your message here..."></textarea>
+            </p>
+            <p class="send-btn">
+              <button>send message</button>
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <p>project mong design all right rese</p>
+    </footer>
 
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="js/custom.js"></script>
+
+  <script src="js/submit.js"></script>
 </body>
 </html>

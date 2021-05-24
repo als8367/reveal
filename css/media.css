@@ -1,4 +1,3 @@
-
 @media screen and (max-width:1140px){
   .center{padding:0 15px;}
 
@@ -8,7 +7,14 @@
   #about .about-right h3{display:none;}
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:950px){
+  /* portfolio section style code*/
+  #portfolio .port-info{padding: 10px;}
+  #portfolio .port-info .port-tit h4{margin-bottom: 0;}
+  #portfolio .port-info .port-tit p{display: none;}
+}
+
+  @media screen and (max-width:700px){
   /* Top Bar Style code */
   #topbar{padding:0;}
   #topbar .center{justify-content: center;}
@@ -44,7 +50,9 @@
   #services .services-boxes .box{flex-direction:column; text-align:center;}
   #services .services-boxes .box .box-text{padding:0;}
   #services .services-boxes .box h4{margin:10px 0;}
-}
+
+  /* portfolio Section Style Code*/
+  #portfolio .fportfolio-item{width: 33.33%;}
 
 @media screen and (max-width:400px){
   /* Intro contents text style code */
